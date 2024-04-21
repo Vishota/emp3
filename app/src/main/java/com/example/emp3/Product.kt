@@ -6,6 +6,7 @@ class Product internal constructor(
     var image: Int,
     var box: Boolean
 ) {
+
     fun getPriceString(): String {
         return "$price"
     }
